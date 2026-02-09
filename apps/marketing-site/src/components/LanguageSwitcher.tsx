@@ -4,35 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 import { useTransition } from "react";
-
-function SAFlag({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 900 600"
-      className={className}
-      aria-hidden="true"
-      role="img"
-    >
-      {/* Red top */}
-      <rect width="900" height="600" fill="#DE3831" />
-      {/* Blue bottom */}
-      <rect y="300" width="900" height="300" fill="#002395" />
-      {/* White border stripes */}
-      <polygon points="0,160 0,200 500,300 0,400 0,440 600,300" fill="#FFF" />
-      {/* Green Y-band */}
-      <polygon points="0,200 0,400 500,300" fill="#007A4D" />
-      <polygon points="500,300 900,200 900,240 600,300 900,360 900,400" fill="#007A4D" />
-      {/* White thin bands along Y */}
-      <rect y="160" width="900" height="40" fill="#FFF" opacity="0" />
-      {/* Black triangle */}
-      <polygon points="0,0 0,200 300,300 0,400 0,600 300,600 500,300 300,0" fill="transparent" />
-      <polygon points="0,160 300,300 0,440" fill="#000" />
-      {/* Gold borders around black */}
-      <polygon points="0,120 0,160 300,300 0,440 0,480 350,300" fill="#FFB612" />
-      <polygon points="0,160 0,440 300,300" fill="#000" />
-    </svg>
-  );
-}
+import Image from "next/image";
 
 export function LanguageSwitcher() {
   const t = useTranslations("LanguageSwitcher");
@@ -49,7 +21,13 @@ export function LanguageSwitcher() {
 
   return (
     <div className="relative flex items-center gap-1.5">
-      <SAFlag className="h-4 w-5 flex-shrink-0 rounded-[2px]" />
+      <Image
+        src="/images/sa-flag-small.png"
+        alt="South African flag"
+        width={20}
+        height={14}
+        className="flex-shrink-0 rounded-[2px]"
+      />
       <label htmlFor="locale-select" className="sr-only">
         {t("label")}
       </label>
