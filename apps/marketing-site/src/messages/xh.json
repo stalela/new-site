@@ -1,0 +1,311 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Stalela — Lawula ishishini lakho. Thina sijongana ne-admin.",
+      "description": "Ubhaliso lwenkampani, ukuthobela, kunye nenkxaso yebhanki yamashishini aseMzantsi Afrika."
+    },
+    "howItWorks": {
+      "title": "Isebenza Njani — Stalela",
+      "description": "Amanyathelo amane alula ukusuka kwingcamango ukuya kwinkampani ebhalisiweyo nethobela umthetho eMzantsi Afrika."
+    },
+    "pricing": {
+      "title": "Amaxabiso — Stalela",
+      "description": "Amaxabiso alula, acacileyo obhaliso lwenkampani neenkonzo zokuthobela."
+    },
+    "contact": {
+      "title": "Qhagamshelana Nathi — Stalela",
+      "description": "Qhagamshelana neStalela ukufumana inkxaso yobhaliso lweshishini nokuthobela."
+    },
+    "register": {
+      "title": "Bhalisa Ishishini Lakho — Stalela",
+      "description": "Qala ubhaliso lwenkampani yakho neStalela. Gcwalisa iinkcukacha zakho siza kwenza konke okunye."
+    },
+    "services": {
+      "title": "Iinkonzo — Stalela",
+      "description": "Ubhaliso lwenkampani, ukuthobela, irhafu, ibhanki, B-BBEE, iinkonzo zobuchwepheshe, nokunye okungakumbi kwama-SME aseMzantsi Afrika."
+    }
+  },
+  "Nav": {
+    "services": "Iinkonzo",
+    "howItWorks": "Isebenza Njani",
+    "pricing": "Amaxabiso",
+    "contact": "Qhagamshelana Nathi",
+    "getStarted": "Qala ngoku",
+    "ourServices": "Iinkonzo Zethu",
+    "mostPopular": "Ezidumileyo",
+    "featuredTitle": "Ubhaliso Lwenkampani",
+    "featuredDescription": "Bhalisa i-Pty Ltd, i-NPC, okanye i-CC ne-CIPC. Sijongana nokugcinwa kwegama, ukulungiswa kwe-MOI, nokunikezelwa kwesatifikethi.",
+    "learnMore": "Funda ngakumbi",
+    "viewAllServices": "Jonga zonke iinkonzo",
+    "closeMenu": "Vala imenyu",
+    "openMenu": "Vula imenyu"
+  },
+  "Footer": {
+    "tagline": "Ubhaliso lwenkampani, ukuthobela, kunye nenkxaso yebhanki yamashishini aseMzantsi Afrika.",
+    "product": "Imveliso",
+    "company": "Inkampani",
+    "legal": "Ezomthetho",
+    "services": "Iinkonzo",
+    "howItWorks": "Isebenza Njani",
+    "pricing": "Amaxabiso",
+    "contact": "Qhagamshelana Nathi",
+    "privacyPolicy": "Umgaqo-nkqubo Wabucala",
+    "termsOfService": "Imimmiselo Yeenkonzo",
+    "copyright": "© {year} Stalela. Onke amalungelo agciniwe."
+  },
+  "HeroSlider": {
+    "seeHowItWorks": "Bona isebenza njani",
+    "previousSlide": "Islayi yangaphambili",
+    "nextSlide": "Islayi elandelayo",
+    "slides": {
+      "companyRegistration": {
+        "title": "Ubhaliso Lwenkampani",
+        "headline": "Bhalisa inkampani yakho\nngaphandle kwengxaki.",
+        "description": "I-Pty Ltd, i-NPC, i-CC — sijongana nokugcinwa kwegama le-CIPC, ukulungiswa kwe-MOI, nokunikezelwa kwesatifikethi. Qala ishishini lakho ngendlela efanelekileyo.",
+        "ctaText": "Bhalisa ishishini lakho"
+      },
+      "taxCompliance": {
+        "title": "Irhafu Nokuthobela",
+        "headline": "Hlala uthobela.\nPhepha izohlwayo.",
+        "description": "Ubhaliso lwe-SARS, ii-annual returns, i-UIF, i-Compensation Fund, ne-POPIA — sikugcina kwicala elifanelekileyo lomthetho.",
+        "ctaText": "Thobela ngoku"
+      },
+      "banking": {
+        "title": "Ibhanki Nezemali",
+        "headline": "Vula iakhawunti yebhanki\nyeshishini, lula.",
+        "description": "Ukulungiswa kwamaxwebhu nokuthunyelwa kwibhanki ukuze ufumane iakhawunti yakho yeshishini ivuliwe ngaphandle kwemibambano.",
+        "ctaText": "Lungisa ibhanki"
+      },
+      "certifications": {
+        "title": "Iziqinisekiso",
+        "headline": "Fumana iziqinisekiso.\nWina iithenda ezingakumbi.",
+        "description": "Izatifikethi ze-B-BBEE, ubulungu be-NSBC, nesatifikethi se-Proudly South African — iziqinisekiso ishishini lakho elizidingayo.",
+        "ctaText": "Fumana isiqinisekiso"
+      },
+      "techDigital": {
+        "title": "Ubuchwepheshe Nedijithali",
+        "headline": "Iiwebhusayithi, ii-app,\nama-brand ne-AI.",
+        "description": "Istudiyo sedijithali esipheleleyo — uyilo lwelogo, i-SEO, isoftware eyenzelwe ngokukhethekileyo, ukudibanisa iintlawulo, ii-app zemobhayile, ii-chatbot, nokunye okungakumbi.",
+        "ctaText": "Phonononga iinkonzo zedijithali"
+      }
+    }
+  },
+  "HomePage": {
+    "servicesHeading": "Konke ishishini lakho elikudingayo ukuze lihlale lisemgceni",
+    "servicesSubheading": "Ukusuka kubhaliso ukuya ekuthobeleni, ibhanki ukuya kwi-brand — simboza umjikelo opheleleyo.",
+    "servicesImageAlt": "Imbonakalo yeenkonzo zeshishini zeStalela",
+    "viewAllServices": "Jonga zonke iinkonzo",
+    "howItWorksHeading": "Isebenza njani",
+    "howItWorksSubheading": "Amanyathelo amane ukusuka kwingcamango ukuya kwishishini elithobela umthetho ngokupheleleyo.",
+    "howItWorksImageAlt": "Amanyathelo amane okubhalisa nokulawula ishishini lakho",
+    "steps": {
+      "1": {
+        "title": "Ngenisa iinkcukacha zakho",
+        "description": "Sixelele ngeshishini lakho, abalawuli, noko ukudingayo."
+      },
+      "2": {
+        "title": "Sibhalisa inkampani yakho",
+        "description": "Sijongana nokungeniswa kwe-CIPC, ukulungiswa kwamaxwebhu, nokulandelela."
+      },
+      "3": {
+        "title": "Sikugcina uthobela",
+        "description": "Izikhumbuzi ezizenzekayo nenkxaso yokufayila ii-annual returns, i-VAT, i-PAYE, nokunye okungakumbi."
+      },
+      "4": {
+        "title": "Wena gxila kwishishini lakho",
+        "description": "Lawula ishishini lakho ngentembeko ngelixa thina sijongana ne-admin."
+      }
+    },
+    "trustImageAlt": "Izalathisi zentembeko nokhuseleko",
+    "trust": {
+      "cipc": "Ibhaliswe ne-CIPC",
+      "audit": "Umkhondo opheleleyo wokuhlola",
+      "smes": "Ithenjwa ngama-SME",
+      "sa": "Igxile eMzantsi Afrika"
+    },
+    "ctaHeadline": "Ulungile ukubhalisa ishishini lakho?",
+    "ctaDescription": "Qala ngemizuzu. Siza kukukhokela kuyo yonke inkqubo.",
+    "ctaText": "Bhalisa ishishini lakho"
+  },
+  "HowItWorks": {
+    "heading": "Isebenza njani",
+    "description": "Ukusuka ekungeniseni kwakho kokuqala kwefomu ukuya ekuthobeleni okuqhubekayo — naku okumele ukulindele.",
+    "imageAlt": "Amanyathelo okubhalisa ishishini ukuya ekuthobeleni okuqhubekayo",
+    "step": "Inyathelo {number}",
+    "steps": {
+      "01": {
+        "title": "Ngenisa iinkcukacha zakho",
+        "description": "Gcwalisa iinkcukacha zenkampani yakho, ulwazi lwabalawuli, uze ulayishe amaxwebhu afunekayo. Ifomu yethu ekhokelayo yenza kube lula — akukho lwimi lwezomthetho, akukho kuqashela.",
+        "details": [
+          "Igama nohlobo lwenkampani",
+          "Iinkcukacha zabalawuli nabanini-zabelo",
+          "Amaxwebhu e-ID nobungqina bedilesi",
+          "Igunya elisayiniweyo elisigunyazisayo ukwenza"
+        ]
+      },
+      "02": {
+        "title": "Sibhalisa inkampani yakho",
+        "description": "Iqela lethu lihlola ulwazi lwakho, lilungise ukungeniswa, lize lifayile ne-CIPC egameni lakho. Ufumana uhlaziyo kuwo onke amanyathelo.",
+        "details": [
+          "Ukuhlolwa kwedatha nokugcinwa kwegama",
+          "Ukungeniswa kwe-CIPC nokulandelela",
+          "Ukunikezelwa kwesatifikethi sobhaliso",
+          "Ukulungiswa kwe-MOI nokufayila"
+        ]
+      },
+      "03": {
+        "title": "Sikugcina uthobela",
+        "description": "Xa ubhaliswe, silungiselela ikhalenda yakho yokuthobela. Ii-annual returns, i-VAT, i-PAYE — silandela imihla yokugqibela sikuncede ufayile ngexesha.",
+        "details": [
+          "Ikhalenda yokuthobela ezenzekayo",
+          "Izikhumbuzi zemihla yokugqibela nge-imeyile",
+          "Inkxaso yokulungisa nokufayila",
+          "Isitoreji sobungqina nomkhondo wokuhlola"
+        ]
+      },
+      "04": {
+        "title": "Wena gxila kwishishini lakho",
+        "description": "Xa ubhaliso lugqityiwe nokuthobela kulawulwa, ungagxila ekukhuliseni ishishini lakho ngelixa thina sijongana ne-admin.",
+        "details": [
+          "Inkxaso yokulungisa ibhanki",
+          "Ukujonga ukuthobela okuqhubekayo",
+          "Isitoreji samaxwebhu azo zonke iirekodi zakho",
+          "Inkxaso ezinikeleyo xa uyidinga"
+        ]
+      }
+    },
+    "ctaHeadline": "Ulungile ukuqala?",
+    "ctaDescription": "Bhalisa ishishini lakho ngemizuzu.",
+    "ctaText": "Bhalisa ishishini lakho"
+  },
+  "Pricing": {
+    "heading": "Amaxabiso alula, acacileyo",
+    "description": "Khetha isicwangciso esifanele ishishini lakho. Akukho iindleko ezifihliweyo.",
+    "imageAlt": "Amanqanaba amathathu amaxabiso eenkonzo zeStalela",
+    "tiers": {
+      "starter": {
+        "name": "Ukuqala",
+        "price": "R1,500",
+        "description": "Ubhaliso lwenkampani nezinto eziyimfuneko.",
+        "features": [
+          "Ubhaliso lwe-Pty Ltd ne-CIPC",
+          "Ukulungiswa kwe-MOI",
+          "Isatifikethi sobhaliso",
+          "Ikhalenda esisiseko yokuthobela",
+          "Inkxaso nge-imeyile"
+        ],
+        "ctaText": "Qala ngoku"
+      },
+      "growth": {
+        "name": "Ukukhula",
+        "price": "R3,500",
+        "description": "Ubhaliso kunye nokulawulwa kokuthobela okuqhubekayo.",
+        "features": [
+          "Konke oku-Starter",
+          "Ukufayila kwe-annual return",
+          "Inkxaso yokubhalisa i-VAT",
+          "Izikhumbuzi zokuthobela",
+          "Isitoreji samaxwebhu",
+          "Inkxaso ebalulekileyo"
+        ],
+        "ctaText": "Qala ngoku"
+      },
+      "managed": {
+        "name": "Ekulawulwayo",
+        "price": "R7,500",
+        "description": "Inkonzo epheleleyo yokulawula ukuthobela ne-admin.",
+        "features": [
+          "Konke oku-Growth",
+          "Ukulungisa i-PAYE ne-UIF",
+          "Inkxaso yokufayila irhafu nyanga nganye",
+          "Inkxaso yokulungisa ibhanki",
+          "Umlawuli weakhawunti ozinikeleyo",
+          "Umkhondo opheleleyo wokuhlola"
+        ],
+        "ctaText": "Qhagamshelana nathi"
+      }
+    },
+    "ctaHeadline": "Akuqinisekanga ukuba sesiphi isicwangciso esifanelekileyo?",
+    "ctaDescription": "Thetha nathi siza kucebisa okona kufanelekileyo kwishishini lakho.",
+    "ctaText": "Qhagamshelana nathi"
+  },
+  "Contact": {
+    "heading": "Qhagamshelana nathi",
+    "description": "Unombuzo okanye ulungile ukuqala? Singathanda ukuva kuwe.",
+    "fields": {
+      "name": { "label": "Igama", "placeholder": "Igama lakho elipheleleyo" },
+      "email": { "label": "I-imeyile", "placeholder": "wena@inkampani.co.za" },
+      "phone": { "label": "Umnxeba", "placeholder": "072 000 0000" },
+      "service": { "label": "Inkonzo efunekayo" },
+      "message": { "label": "Umyalezo", "placeholder": "Sixelele ngeemfuno zakho..." }
+    },
+    "serviceOptions": [
+      "Ubhaliso Lwenkampani",
+      "Utshintsho Lwegama / Idilesi Yenkampani",
+      "Ukufayila Kwe-Annual Return",
+      "Iinkonzo ze-SARS",
+      "Ubhaliso lwe-UIF",
+      "I-Compensation Fund",
+      "Izatifikethi ze-B-BBEE",
+      "Iiakhawunti Zebhanki Yeshishini",
+      "Ubhaliso Lwegama Ledomain",
+      "Uphuhliso Lwewebhusayithi",
+      "Ukulungisa I-imeyile Yeshishini",
+      "Ukwakha Ibrand Noyilo",
+      "I-Information Regulator / POPIA",
+      "Okunye"
+    ],
+    "submitLabel": "Thumela umyalezo",
+    "info": {
+      "email": { "label": "I-imeyile", "value": "hello@stalela.co.za" },
+      "phone": { "label": "Umnxeba", "value": "+27 10 000 0000" },
+      "location": { "label": "Indawo", "value": "eRhawutini, eMzantsi Afrika" }
+    }
+  },
+  "Register": {
+    "heading": "Bhalisa ishishini lakho",
+    "description": "Gcwalisa iinkcukacha zakho ngezantsi neqela lethu liza kubuyela kuwe ukuqala inkqubo yokubhalisa.",
+    "imageAlt": "Qala ubhaliso lweshishini lakho",
+    "fields": {
+      "fullName": { "label": "Igama elipheleleyo", "placeholder": "Igama lakho elipheleleyo" },
+      "email": { "label": "I-imeyile", "placeholder": "wena@inkampani.co.za" },
+      "phone": { "label": "Umnxeba", "placeholder": "072 000 0000" },
+      "businessName": { "label": "Igama leshishini", "placeholder": "Igama leshishini oliphakamisayo" },
+      "directorsCount": { "label": "Inani labalawuli", "placeholder": "umz. 2" },
+      "notes": { "label": "Amanqaku", "placeholder": "Kukho enye into esimele siyazi..." }
+    },
+    "submitLabel": "Ngenisa isicelo sobhaliso",
+    "disclaimer": "Ngokungenisa le fomu, uyavuma ukuqhagamshelwa ngeenkonzo zeStalela. Asabelani ngolwazi lwakho nabanye."
+  },
+  "Services": {
+    "heading": "Iinkonzo",
+    "description": "Konke okudingayo ukuqala nokulawula ishishini elithobela umthetho eMzantsi Afrika. Bhrawuza ngokwezintlu okanye cofa nayiphi na inkonzo ukuze ufumane imbonakalo ekhawulezileyo.",
+    "ctaHeadline": "Akuqinisekanga ukuba ufuna ntoni?",
+    "ctaDescription": "Qhagamshelana nathi siza kukunceda ufumane iinkonzo ezifanelekileyo zeshishini lakho.",
+    "ctaText": "Qhagamshelana nathi"
+  },
+  "CategoryPage": {
+    "ctaHeadline": "Ulungile ukuqala?",
+    "ctaDescription": "Sivumele sijongane ne-admin ukuze ugxile kwishishini lakho.",
+    "ctaText": "Bhalisa ishishini lakho"
+  },
+  "ServicePage": {
+    "ctaHeadline": "Ufuna uncedo ngale nkonzo?",
+    "ctaDescription": "Qhagamshelana nathi siza kukukhokela kuyo yonke inkqubo.",
+    "ctaText": "Qhagamshelana nathi"
+  },
+  "LeadForm": {
+    "submit": "Ngenisa",
+    "submitting": "Kuyangeniswa...",
+    "select": "Khetha...",
+    "success": "Enkosi! Siza kuqhagamshelana nawe kungekudala.",
+    "error": "Kukho ingxaki. Nceda uzame kwakhona."
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zu": "isiZulu",
+    "af": "Afrikaans",
+    "xh": "isiXhosa",
+    "label": "Ulwimi"
+  }
+}

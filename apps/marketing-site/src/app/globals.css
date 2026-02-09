@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1c1c1c;
+
+  /* Brand palette — extracted from logo */
+  --copper: #a4785a;
+  --copper-light: #d4a574;
+  --copper-50: #faf5f0;
+  --copper-100: #f0e4d6;
+  --copper-200: #e0c9ad;
+  --copper-600: #a4785a;
+  --copper-700: #8a6349;
+  --copper-800: #6e4f3a;
+  --charcoal: #1c1c1c;
+  --charcoal-warm: #1f1b19;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-copper-50: var(--copper-50);
+  --color-copper-100: var(--copper-100);
+  --color-copper-200: var(--copper-200);
+  --color-copper-600: var(--copper-600);
+  --color-copper-700: var(--copper-700);
+  --color-copper-800: var(--copper-800);
+  --color-charcoal: var(--charcoal);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}

@@ -1,0 +1,311 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Stalela — Run your business. We handle the admin.",
+      "description": "Company registration, compliance, and banking support for South African businesses."
+    },
+    "howItWorks": {
+      "title": "How It Works — Stalela",
+      "description": "Four simple steps from idea to fully registered and compliant South African business."
+    },
+    "pricing": {
+      "title": "Pricing — Stalela",
+      "description": "Simple, transparent pricing for company registration and compliance services."
+    },
+    "contact": {
+      "title": "Contact — Stalela",
+      "description": "Get in touch with Stalela for business registration and compliance support."
+    },
+    "register": {
+      "title": "Register Your Business — Stalela",
+      "description": "Start your company registration with Stalela. Fill in your details and we'll handle the rest."
+    },
+    "services": {
+      "title": "Services — Stalela",
+      "description": "Company registration, compliance, tax, banking, B-BBEE, tech services, and more for South African SMEs."
+    }
+  },
+  "Nav": {
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "getStarted": "Get started",
+    "ourServices": "Our Services",
+    "mostPopular": "Most popular",
+    "featuredTitle": "Company Registration",
+    "featuredDescription": "Register a Pty Ltd, NPC, or CC with CIPC. We handle name reservation, MOI prep, and certificate delivery.",
+    "learnMore": "Learn more",
+    "viewAllServices": "View all services",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
+  },
+  "Footer": {
+    "tagline": "Company registration, compliance, and banking support for South African businesses.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Stalela. All rights reserved."
+  },
+  "HeroSlider": {
+    "seeHowItWorks": "See how it works",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "slides": {
+      "companyRegistration": {
+        "title": "Company Registration",
+        "headline": "Register your company\nwith zero hassle.",
+        "description": "Pty Ltd, NPC, CC — we handle CIPC name reservations, MOI prep, and certificate delivery. Start your business the right way.",
+        "ctaText": "Register your business"
+      },
+      "taxCompliance": {
+        "title": "Tax & Compliance",
+        "headline": "Stay compliant.\nAvoid penalties.",
+        "description": "SARS registrations, annual returns, UIF, Compensation Fund, and POPIA — we keep you on the right side of the law.",
+        "ctaText": "Get compliant"
+      },
+      "banking": {
+        "title": "Banking & Finance",
+        "headline": "Open a business bank\naccount, painlessly.",
+        "description": "Document preparation and bank referrals so you can get your business account open without the back-and-forth.",
+        "ctaText": "Set up banking"
+      },
+      "certifications": {
+        "title": "Certifications",
+        "headline": "Get certified.\nWin more tenders.",
+        "description": "B-BBEE certificates, NSBC membership, and Proudly South African certification — the credentials your business needs.",
+        "ctaText": "Get certified"
+      },
+      "techDigital": {
+        "title": "Tech & Digital",
+        "headline": "Websites, apps,\nbranding & AI.",
+        "description": "Full-service digital studio — logo design, SEO, custom software, payment integrations, mobile apps, chatbots, and more.",
+        "ctaText": "Explore digital services"
+      }
+    }
+  },
+  "HomePage": {
+    "servicesHeading": "Everything your business needs to stay on track",
+    "servicesSubheading": "From registration to compliance, banking to branding — we cover the full lifecycle.",
+    "servicesImageAlt": "Overview of Stalela business services",
+    "viewAllServices": "View all services",
+    "howItWorksHeading": "How it works",
+    "howItWorksSubheading": "Four steps from idea to fully compliant business.",
+    "howItWorksImageAlt": "Four steps to register and manage your business",
+    "steps": {
+      "1": {
+        "title": "Submit your details",
+        "description": "Tell us about your business, directors, and what you need."
+      },
+      "2": {
+        "title": "We register your company",
+        "description": "We handle the CIPC submission, document preparation, and follow-ups."
+      },
+      "3": {
+        "title": "We keep you compliant",
+        "description": "Automated reminders and filing support for annual returns, VAT, PAYE, and more."
+      },
+      "4": {
+        "title": "You focus on your business",
+        "description": "Run your business with confidence while we handle the admin."
+      }
+    },
+    "trustImageAlt": "Trust and security indicators",
+    "trust": {
+      "cipc": "Registered with CIPC",
+      "audit": "Full audit trail",
+      "smes": "Trusted by SMEs",
+      "sa": "South African focused"
+    },
+    "ctaHeadline": "Ready to register your business?",
+    "ctaDescription": "Get started in minutes. We'll guide you through the entire process.",
+    "ctaText": "Register your business"
+  },
+  "HowItWorks": {
+    "heading": "How it works",
+    "description": "From your first form submission to ongoing compliance — here's what to expect.",
+    "imageAlt": "Steps from business registration to ongoing compliance",
+    "step": "Step {number}",
+    "steps": {
+      "01": {
+        "title": "Submit your details",
+        "description": "Fill in your company details, director information, and upload the required documents. Our guided form makes it simple — no jargon, no guesswork.",
+        "details": [
+          "Company name and type",
+          "Director and shareholder details",
+          "ID documents and proof of address",
+          "Signed mandate authorising us to act"
+        ]
+      },
+      "02": {
+        "title": "We register your company",
+        "description": "Our team validates your information, prepares the submission, and files with CIPC on your behalf. You get updates at every step.",
+        "details": [
+          "Data validation and name reservation",
+          "CIPC submission and follow-up",
+          "Registration certificate delivery",
+          "MOI preparation and filing"
+        ]
+      },
+      "03": {
+        "title": "We keep you compliant",
+        "description": "Once registered, we set up your compliance calendar. Annual returns, VAT, PAYE — we track deadlines and help you file on time.",
+        "details": [
+          "Automated compliance calendar",
+          "Deadline reminders via email",
+          "Filing preparation and submission support",
+          "Evidence storage and audit trail"
+        ]
+      },
+      "04": {
+        "title": "You focus on your business",
+        "description": "With registration complete and compliance managed, you can focus on growing your business while we handle the admin.",
+        "details": [
+          "Banking setup support",
+          "Ongoing compliance monitoring",
+          "Document vault for all your records",
+          "Dedicated support when you need it"
+        ]
+      }
+    },
+    "ctaHeadline": "Ready to get started?",
+    "ctaDescription": "Register your business in minutes.",
+    "ctaText": "Register your business"
+  },
+  "Pricing": {
+    "heading": "Simple, transparent pricing",
+    "description": "Choose the plan that fits your business. No hidden fees.",
+    "imageAlt": "Three pricing tiers for Stalela services",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "R1,500",
+        "description": "Company registration with the essentials.",
+        "features": [
+          "Pty Ltd registration with CIPC",
+          "MOI preparation",
+          "Registration certificate",
+          "Basic compliance calendar",
+          "Email support"
+        ],
+        "ctaText": "Get started"
+      },
+      "growth": {
+        "name": "Growth",
+        "price": "R3,500",
+        "description": "Registration plus ongoing compliance management.",
+        "features": [
+          "Everything in Starter",
+          "Annual return filing",
+          "VAT registration support",
+          "Compliance reminders",
+          "Document vault",
+          "Priority support"
+        ],
+        "ctaText": "Get started"
+      },
+      "managed": {
+        "name": "Managed",
+        "price": "R7,500",
+        "description": "Full-service compliance and admin management.",
+        "features": [
+          "Everything in Growth",
+          "PAYE and UIF setup",
+          "Monthly tax filing support",
+          "Banking setup assistance",
+          "Dedicated account manager",
+          "Full audit trail"
+        ],
+        "ctaText": "Contact us"
+      }
+    },
+    "ctaHeadline": "Not sure which plan is right?",
+    "ctaDescription": "Talk to us and we'll recommend the best option for your business.",
+    "ctaText": "Contact us"
+  },
+  "Contact": {
+    "heading": "Contact us",
+    "description": "Have a question or ready to get started? We'd love to hear from you.",
+    "fields": {
+      "name": { "label": "Name", "placeholder": "Your full name" },
+      "email": { "label": "Email", "placeholder": "you@company.co.za" },
+      "phone": { "label": "Phone", "placeholder": "072 000 0000" },
+      "service": { "label": "Service needed" },
+      "message": { "label": "Message", "placeholder": "Tell us about your needs..." }
+    },
+    "serviceOptions": [
+      "Company Registration",
+      "Company Name / Address Changes",
+      "Annual Return Filing",
+      "SARS Services",
+      "UIF Registration",
+      "Compensation Fund",
+      "B-BBEE Certificates",
+      "Business Bank Accounts",
+      "Domain Name Registration",
+      "Website Development",
+      "Business Email Setup",
+      "Branding & Design",
+      "Information Regulator / POPIA",
+      "Other"
+    ],
+    "submitLabel": "Send message",
+    "info": {
+      "email": { "label": "Email", "value": "hello@stalela.co.za" },
+      "phone": { "label": "Phone", "value": "+27 10 000 0000" },
+      "location": { "label": "Location", "value": "Johannesburg, South Africa" }
+    }
+  },
+  "Register": {
+    "heading": "Register your business",
+    "description": "Fill in your details below and our team will get back to you to start the registration process.",
+    "imageAlt": "Start your business registration",
+    "fields": {
+      "fullName": { "label": "Full name", "placeholder": "Your full name" },
+      "email": { "label": "Email", "placeholder": "you@company.co.za" },
+      "phone": { "label": "Phone", "placeholder": "072 000 0000" },
+      "businessName": { "label": "Business name", "placeholder": "Your proposed business name" },
+      "directorsCount": { "label": "Number of directors", "placeholder": "e.g. 2" },
+      "notes": { "label": "Notes", "placeholder": "Anything else we should know..." }
+    },
+    "submitLabel": "Submit registration request",
+    "disclaimer": "By submitting this form, you agree to be contacted about Stalela services. We do not share your information with third parties."
+  },
+  "Services": {
+    "heading": "Services",
+    "description": "Everything you need to start and run a compliant business in South Africa. Browse by category or click any service for a quick overview.",
+    "ctaHeadline": "Not sure what you need?",
+    "ctaDescription": "Get in touch and we'll help you figure out the right services for your business.",
+    "ctaText": "Contact us"
+  },
+  "CategoryPage": {
+    "ctaHeadline": "Ready to get started?",
+    "ctaDescription": "Let us handle the admin so you can focus on your business.",
+    "ctaText": "Register your business"
+  },
+  "ServicePage": {
+    "ctaHeadline": "Need help with this service?",
+    "ctaDescription": "Get in touch and we'll guide you through the process.",
+    "ctaText": "Contact us"
+  },
+  "LeadForm": {
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "select": "Select...",
+    "success": "Thank you! We'll be in touch shortly.",
+    "error": "Something went wrong. Please try again."
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zu": "isiZulu",
+    "af": "Afrikaans",
+    "xh": "isiXhosa",
+    "label": "Language"
+  }
+}

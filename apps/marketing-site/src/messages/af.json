@@ -1,0 +1,311 @@
+{
+  "Metadata": {
+    "home": {
+      "title": "Stalela — Bestuur jou besigheid. Ons hanteer die admin.",
+      "description": "Maatskappy-registrasie, voldoening, en bankondersteuning vir Suid-Afrikaanse besighede."
+    },
+    "howItWorks": {
+      "title": "Hoe Dit Werk — Stalela",
+      "description": "Vier eenvoudige stappe van idee tot 'n volledig geregistreerde en voldoenende Suid-Afrikaanse besigheid."
+    },
+    "pricing": {
+      "title": "Pryse — Stalela",
+      "description": "Eenvoudige, deursigtige pryse vir maatskappy-registrasie en voldoeningsdienste."
+    },
+    "contact": {
+      "title": "Kontak — Stalela",
+      "description": "Kontak Stalela vir besigheidsregistrasie en voldoeningsondersteuning."
+    },
+    "register": {
+      "title": "Registreer Jou Besigheid — Stalela",
+      "description": "Begin jou maatskappy-registrasie met Stalela. Vul jou besonderhede in en ons hanteer die res."
+    },
+    "services": {
+      "title": "Dienste — Stalela",
+      "description": "Maatskappy-registrasie, voldoening, belasting, bankwese, B-BBEE, tegnologiedienste, en meer vir Suid-Afrikaanse KMO's."
+    }
+  },
+  "Nav": {
+    "services": "Dienste",
+    "howItWorks": "Hoe Dit Werk",
+    "pricing": "Pryse",
+    "contact": "Kontak",
+    "getStarted": "Begin nou",
+    "ourServices": "Ons Dienste",
+    "mostPopular": "Gewildste",
+    "featuredTitle": "Maatskappy-registrasie",
+    "featuredDescription": "Registreer 'n Pty Ltd, NPC, of BK by CIPC. Ons hanteer naamreservering, MOI-voorbereiding, en sertifikaatlewering.",
+    "learnMore": "Lees meer",
+    "viewAllServices": "Sien alle dienste",
+    "closeMenu": "Sluit kieslys",
+    "openMenu": "Maak kieslys oop"
+  },
+  "Footer": {
+    "tagline": "Maatskappy-registrasie, voldoening, en bankondersteuning vir Suid-Afrikaanse besighede.",
+    "product": "Produk",
+    "company": "Maatskappy",
+    "legal": "Regsake",
+    "services": "Dienste",
+    "howItWorks": "Hoe Dit Werk",
+    "pricing": "Pryse",
+    "contact": "Kontak",
+    "privacyPolicy": "Privaatheidsbeleid",
+    "termsOfService": "Diensvoorwaardes",
+    "copyright": "© {year} Stalela. Alle regte voorbehou."
+  },
+  "HeroSlider": {
+    "seeHowItWorks": "Sien hoe dit werk",
+    "previousSlide": "Vorige skyfie",
+    "nextSlide": "Volgende skyfie",
+    "slides": {
+      "companyRegistration": {
+        "title": "Maatskappy-registrasie",
+        "headline": "Registreer jou maatskappy\nsonder enige moeite.",
+        "description": "Pty Ltd, NPC, BK — ons hanteer CIPC-naamreserverings, MOI-voorbereiding, en sertifikaatlewering. Begin jou besigheid op die regte manier.",
+        "ctaText": "Registreer jou besigheid"
+      },
+      "taxCompliance": {
+        "title": "Belasting & Voldoening",
+        "headline": "Bly voldoenend.\nVermy boetes.",
+        "description": "SARS-registrasies, jaarlikse opgawes, WVF, Vergoedingsfonds, en POPIA — ons hou jou aan die regte kant van die wet.",
+        "ctaText": "Word voldoenend"
+      },
+      "banking": {
+        "title": "Bankwese & Finansies",
+        "headline": "Maak 'n besigheids-\nbankrekening oop, moeiteloos.",
+        "description": "Dokumentvoorbereiding en bankverwysings sodat jy jou besigheidsrekening kan oopmaak sonder die heen-en-weer.",
+        "ctaText": "Stel bankwese op"
+      },
+      "certifications": {
+        "title": "Sertifisering",
+        "headline": "Word gesertifiseer.\nWen meer tenders.",
+        "description": "B-BBEE-sertifikate, NSBC-lidmaatskap, en Proudly South African-sertifisering — die geloofwaardigheid wat jou besigheid nodig het.",
+        "ctaText": "Word gesertifiseer"
+      },
+      "techDigital": {
+        "title": "Tegnologie & Digitaal",
+        "headline": "Webwerwe, toepassings,\nhandelsmerk & KI.",
+        "description": "Volledige digitale ateljee — logo-ontwerp, SEO, pasgemaakte sagteware, betalingsintegrasie, mobiele toepassings, kletsbotte, en meer.",
+        "ctaText": "Verken digitale dienste"
+      }
+    }
+  },
+  "HomePage": {
+    "servicesHeading": "Alles wat jou besigheid nodig het om op koers te bly",
+    "servicesSubheading": "Van registrasie tot voldoening, bankwese tot handelsmerk — ons dek die volle lewensiklus.",
+    "servicesImageAlt": "Oorsig van Stalela se besigheidsdienste",
+    "viewAllServices": "Sien alle dienste",
+    "howItWorksHeading": "Hoe dit werk",
+    "howItWorksSubheading": "Vier stappe van idee tot volledig voldoenende besigheid.",
+    "howItWorksImageAlt": "Vier stappe om jou besigheid te registreer en te bestuur",
+    "steps": {
+      "1": {
+        "title": "Dien jou besonderhede in",
+        "description": "Vertel ons van jou besigheid, direkteure, en wat jy nodig het."
+      },
+      "2": {
+        "title": "Ons registreer jou maatskappy",
+        "description": "Ons hanteer die CIPC-indiening, dokumentvoorbereiding, en opvolgings."
+      },
+      "3": {
+        "title": "Ons hou jou voldoenend",
+        "description": "Outomatiese herinnerings en indieningsondersteuning vir jaarlikse opgawes, BTW, LBS, en meer."
+      },
+      "4": {
+        "title": "Jy fokus op jou besigheid",
+        "description": "Bestuur jou besigheid met vertroue terwyl ons die admin hanteer."
+      }
+    },
+    "trustImageAlt": "Vertroue- en sekuriteitsaanwysers",
+    "trust": {
+      "cipc": "Geregistreer by CIPC",
+      "audit": "Volledige ouditspoor",
+      "smes": "Vertrou deur KMO's",
+      "sa": "Suid-Afrika gefokus"
+    },
+    "ctaHeadline": "Gereed om jou besigheid te registreer?",
+    "ctaDescription": "Begin in minute. Ons sal jou deur die hele proses lei.",
+    "ctaText": "Registreer jou besigheid"
+  },
+  "HowItWorks": {
+    "heading": "Hoe dit werk",
+    "description": "Van jou eerste vormindiening tot deurlopende voldoening — hier is wat om te verwag.",
+    "imageAlt": "Stappe van besigheidsregistrasie tot deurlopende voldoening",
+    "step": "Stap {number}",
+    "steps": {
+      "01": {
+        "title": "Dien jou besonderhede in",
+        "description": "Vul jou maatskappybesonderhede, direkteurinligting in, en laai die vereiste dokumente op. Ons geleide vorm maak dit eenvoudig — geen jargon, geen raaiwerk nie.",
+        "details": [
+          "Maatskappynaam en -tipe",
+          "Direkteur- en aandeelhouerbesonderhede",
+          "ID-dokumente en bewys van adres",
+          "Getekende mandaat wat ons magtig om op te tree"
+        ]
+      },
+      "02": {
+        "title": "Ons registreer jou maatskappy",
+        "description": "Ons span valideer jou inligting, berei die indiening voor, en dien by CIPC namens jou in. Jy kry opdaterings by elke stap.",
+        "details": [
+          "Datavalidasie en naamreservering",
+          "CIPC-indiening en opvolging",
+          "Registrasiesertifikaatlewering",
+          "MOI-voorbereiding en indiening"
+        ]
+      },
+      "03": {
+        "title": "Ons hou jou voldoenend",
+        "description": "Sodra geregistreer, stel ons jou voldoeningskalender op. Jaarlikse opgawes, BTW, LBS — ons volg sperdatums en help jou om betyds in te dien.",
+        "details": [
+          "Outomatiese voldoeningskalender",
+          "Sperdatumherinnerings per e-pos",
+          "Indieningsvoorbereiding en -ondersteuning",
+          "Bewysstoorplek en ouditspoor"
+        ]
+      },
+      "04": {
+        "title": "Jy fokus op jou besigheid",
+        "description": "Met registrasie voltooi en voldoening bestuur, kan jy fokus op die groei van jou besigheid terwyl ons die admin hanteer.",
+        "details": [
+          "Bankopstellingsondersteuning",
+          "Deurlopende voldoeningsmonitering",
+          "Dokumentkluis vir al jou rekords",
+          "Toegewyde ondersteuning wanneer jy dit nodig het"
+        ]
+      }
+    },
+    "ctaHeadline": "Gereed om te begin?",
+    "ctaDescription": "Registreer jou besigheid in minute.",
+    "ctaText": "Registreer jou besigheid"
+  },
+  "Pricing": {
+    "heading": "Eenvoudige, deursigtige pryse",
+    "description": "Kies die plan wat by jou besigheid pas. Geen verborge koste nie.",
+    "imageAlt": "Drie prysvlakke vir Stalela-dienste",
+    "tiers": {
+      "starter": {
+        "name": "Beginners",
+        "price": "R1,500",
+        "description": "Maatskappy-registrasie met die noodsaaklikhede.",
+        "features": [
+          "Pty Ltd-registrasie by CIPC",
+          "MOI-voorbereiding",
+          "Registrasiesertifikaat",
+          "Basiese voldoeningskalender",
+          "E-posondersteuning"
+        ],
+        "ctaText": "Begin nou"
+      },
+      "growth": {
+        "name": "Groei",
+        "price": "R3,500",
+        "description": "Registrasie plus deurlopende voldoeningsbestuur.",
+        "features": [
+          "Alles in Beginners",
+          "Jaarlikse opgawe-indiening",
+          "BTW-registrasie-ondersteuning",
+          "Voldoeningsherinnerings",
+          "Dokumentkluis",
+          "Prioriteitsondersteuning"
+        ],
+        "ctaText": "Begin nou"
+      },
+      "managed": {
+        "name": "Bestuur",
+        "price": "R7,500",
+        "description": "Volledige voldoenings- en adminbestuursdiens.",
+        "features": [
+          "Alles in Groei",
+          "LBS- en WVF-opstelling",
+          "Maandelikse belastingindieningsondersteuning",
+          "Bankopstellingshulp",
+          "Toegewyde rekeningbestuurder",
+          "Volledige ouditspoor"
+        ],
+        "ctaText": "Kontak ons"
+      }
+    },
+    "ctaHeadline": "Nie seker watter plan reg is nie?",
+    "ctaDescription": "Praat met ons en ons sal die beste opsie vir jou besigheid aanbeveel.",
+    "ctaText": "Kontak ons"
+  },
+  "Contact": {
+    "heading": "Kontak ons",
+    "description": "Het jy 'n vraag of is jy gereed om te begin? Ons hoor graag van jou.",
+    "fields": {
+      "name": { "label": "Naam", "placeholder": "Jou volle naam" },
+      "email": { "label": "E-pos", "placeholder": "jy@maatskappy.co.za" },
+      "phone": { "label": "Telefoon", "placeholder": "072 000 0000" },
+      "service": { "label": "Diens benodig" },
+      "message": { "label": "Boodskap", "placeholder": "Vertel ons van jou behoeftes..." }
+    },
+    "serviceOptions": [
+      "Maatskappy-registrasie",
+      "Maatskappynaam- / Adresveranderings",
+      "Jaarlikse Opgawe-indiening",
+      "SARS-dienste",
+      "WVF-registrasie",
+      "Vergoedingsfonds",
+      "B-BBEE-sertifikate",
+      "Besigheidsbankrekening",
+      "Domeinnaamregistrasie",
+      "Webwerfontwikkeling",
+      "Besigheids-e-posopstelling",
+      "Handelsmerk & Ontwerp",
+      "Inligtingsreguleerder / POPIA",
+      "Ander"
+    ],
+    "submitLabel": "Stuur boodskap",
+    "info": {
+      "email": { "label": "E-pos", "value": "hello@stalela.co.za" },
+      "phone": { "label": "Telefoon", "value": "+27 10 000 0000" },
+      "location": { "label": "Ligging", "value": "Johannesburg, Suid-Afrika" }
+    }
+  },
+  "Register": {
+    "heading": "Registreer jou besigheid",
+    "description": "Vul jou besonderhede hieronder in en ons span sal met jou kontak maak om die registrasieproses te begin.",
+    "imageAlt": "Begin jou besigheidsregistrasie",
+    "fields": {
+      "fullName": { "label": "Volle naam", "placeholder": "Jou volle naam" },
+      "email": { "label": "E-pos", "placeholder": "jy@maatskappy.co.za" },
+      "phone": { "label": "Telefoon", "placeholder": "072 000 0000" },
+      "businessName": { "label": "Besigheidsnaam", "placeholder": "Jou voorgestelde besigheidsnaam" },
+      "directorsCount": { "label": "Aantal direkteure", "placeholder": "bv. 2" },
+      "notes": { "label": "Notas", "placeholder": "Enigiets anders wat ons moet weet..." }
+    },
+    "submitLabel": "Dien registrasieversoek in",
+    "disclaimer": "Deur hierdie vorm in te dien, stem jy in om gekontak te word oor Stalela-dienste. Ons deel nie jou inligting met derde partye nie."
+  },
+  "Services": {
+    "heading": "Dienste",
+    "description": "Alles wat jy nodig het om 'n voldoenende besigheid in Suid-Afrika te begin en te bestuur. Blaai per kategorie of klik op enige diens vir 'n vinnige oorsig.",
+    "ctaHeadline": "Nie seker wat jy nodig het nie?",
+    "ctaDescription": "Kontak ons en ons sal jou help om die regte dienste vir jou besigheid uit te vind.",
+    "ctaText": "Kontak ons"
+  },
+  "CategoryPage": {
+    "ctaHeadline": "Gereed om te begin?",
+    "ctaDescription": "Laat ons die admin hanteer sodat jy op jou besigheid kan fokus.",
+    "ctaText": "Registreer jou besigheid"
+  },
+  "ServicePage": {
+    "ctaHeadline": "Hulp nodig met hierdie diens?",
+    "ctaDescription": "Kontak ons en ons sal jou deur die proses lei.",
+    "ctaText": "Kontak ons"
+  },
+  "LeadForm": {
+    "submit": "Indien",
+    "submitting": "Besig om in te dien...",
+    "select": "Kies...",
+    "success": "Dankie! Ons sal binnekort in aanraking wees.",
+    "error": "Iets het fout gegaan. Probeer asseblief weer."
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zu": "isiZulu",
+    "af": "Afrikaans",
+    "xh": "isiXhosa",
+    "label": "Taal"
+  }
+}
