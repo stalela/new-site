@@ -91,7 +91,7 @@
     }
   },
   "HomePage": {
-    "servicesHeading": "Konke ishishini lakho elikudingayo ukuze lihlale lisemgceni",
+    "servicesHeading": "Konke ishishini lakho elikudingayo ukuze lihlale lisemgceni neStalela",
     "servicesSubheading": "Ukusuka kubhaliso ukuya ekuthobeleni, ibhanki ukuya kwi-brand — simboza umjikelo opheleleyo.",
     "servicesImageAlt": "Imbonakalo yeenkonzo zeshishini zeStalela",
     "viewAllServices": "Jonga zonke iinkonzo",
@@ -278,11 +278,11 @@
     "disclaimer": "Ngokungenisa le fomu, uyavuma ukuqhagamshelwa ngeenkonzo zeStalela. Asabelani ngolwazi lwakho nabanye."
   },
   "Services": {
-    "heading": "Iinkonzo",
-    "description": "Konke okudingayo ukuqala nokulawula ishishini elithobela umthetho eMzantsi Afrika. Bhrawuza ngokwezintlu okanye cofa nayiphi na inkonzo ukuze ufumane imbonakalo ekhawulezileyo.",
+    "heading": "Iinkonzo zeStalela — Ulawulo Olupheleleyo Lweshishini",
+    "description": "Konke okudingayo ukuqala nokulawula ishishini elithobela umthetho eMzantsi Afrika neStalela. Bhrawuza ngokwezintlu okanye cofa nayiphi na inkonzo ukuze ufumane imbonakalo ekhawulezileyo.",
     "ctaHeadline": "Akuqinisekanga ukuba ufuna ntoni?",
-    "ctaDescription": "Qhagamshelana nathi siza kukunceda ufumane iinkonzo ezifanelekileyo zeshishini lakho.",
-    "ctaText": "Qhagamshelana nathi"
+    "ctaDescription": "Qhagamshelana neStalela siza kukunceda ufumane iinkonzo ezifanelekileyo zeshishini lakho.",
+    "ctaText": "Qhagamshelana neStalela"
   },
   "CategoryPage": {
     "ctaHeadline": "Ulungile ukuqala?",

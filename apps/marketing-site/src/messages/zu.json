@@ -91,7 +91,7 @@
     }
   },
   "HomePage": {
-    "servicesHeading": "Konke ibhizinisi lakho elikudingayo ukuze lihlale likulayini",
+    "servicesHeading": "Konke ibhizinisi lakho elikudingayo ukuze lihlale likulayini ne-Stalela",
     "servicesSubheading": "Kusuka ekubhaliseni kuya ekuthobeleni, amabhange kuya kuma-brand — simboza umjikelezo ophelele.",
     "servicesImageAlt": "Ukubuka konke kwezinsizakalo zebhizinisi zeStalela",
     "viewAllServices": "Buka zonke izinsizakalo",
@@ -278,11 +278,11 @@
     "disclaimer": "Ngokuthumela leli fomu, uyavuma ukuxhunyanwa ngezinsizakalo zeStalela. Asabelani ngolwazi lwakho nabanye."
   },
   "Services": {
-    "heading": "Izinsizakalo",
-    "description": "Konke okudingayo ukuqala nokuphatha ibhizinisi elithobela umthetho eNingizimu Afrika. Bhrawuza ngezigaba noma uchofoze noma iyiphi insizakalo ukuze uthole ukubuka okusheshayo.",
+    "heading": "Izinsizakalo zeStalela — Ukuphathwa Okuphelele Kwebhizinisi",
+    "description": "Konke okudingayo ukuqala nokuphatha ibhizinisi elithobela umthetho eNingizimu Afrika neStalela. Bhrawuza ngezigaba noma uchofoze noma iyiphi insizakalo ukuze uthole ukubuka okusheshayo.",
     "ctaHeadline": "Awuqinisekile ukuthi udingani?",
-    "ctaDescription": "Xhumana nathi sizokusiza uthole izinsizakalo ezilungile zebhizinisi lakho.",
-    "ctaText": "Xhumana nathi"
+    "ctaDescription": "Xhumana neStalela sizokusiza uthole izinsizakalo ezilungile zebhizinisi lakho.",
+    "ctaText": "Xhumana neStalela"
   },
   "CategoryPage": {
     "ctaHeadline": "Ulungele ukuqala?",
