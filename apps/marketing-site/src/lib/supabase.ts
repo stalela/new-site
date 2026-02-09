@@ -1,6 +1,7 @@
-import { createClient } from "@supabase/supabase-js";
+import { createPublicClient } from "@stalela/supabase/client";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY!;
-
-export const supabase = createClient(supabaseUrl, supabaseKey);
+/**
+ * Public (anon-key) Supabase client shared across the marketing site.
+ * Write operations are handled by the admin app.
+ */
+export const supabase = createPublicClient();

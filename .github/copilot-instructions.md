@@ -43,7 +43,7 @@ All service/category data lives in `src/lib/services-data.ts`:
 - `serviceCategories: ServiceCategory[]` — groups built via `buildCategory()` referencing service titles
 - Lookup helpers: `getServiceBySlug()`, `getCategoryBySlug()`, `getCategoryForService()`
 - Routes: `/services` → `/services/[categorySlug]` → `/services/[categorySlug]/[serviceSlug]`
-- Custom rich pages registered in the `customPages` map in the `[serviceSlug]/page.tsx` route
+- Custom rich pages registered in the `customPages` map in the `[serviceSlug]/page.tsx` route — use `StudioPage` or custom components for detailed service pages
 
 ## Image Handling
 - All images via `next/image` with `fill` mode + `object-cover` inside aspect-ratio containers
@@ -52,7 +52,7 @@ All service/category data lives in `src/lib/services-data.ts`:
 - Hero images use `priority` prop; others use default lazy loading
 
 ## API Route
-Single endpoint: `POST /api/lead` — validates `email` + `source`, writes to `.data/leads.json` (file-based, temporary). Returns `{ success: true, id }`. Do NOT add auth or complex backend logic.
+Single endpoint: `POST /api/lead` — validates `email` + `source`, inserts into Supabase `leads` table. Returns `{ success: true, id }`. Do NOT add auth or complex backend logic.
 
 ## Build & Deployment
 - Static generation with `generateStaticParams()` for dynamic routes and `generateMetadata()` for SEO
