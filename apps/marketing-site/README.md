@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stalela Marketing Site
+
+A modern, multilingual marketing website for Stalela, a South African SME compliance platform. Built with Next.js 16, featuring internationalization support for English, isiZulu, Afrikaans, and isiXhosa.
+
+## Overview
+
+This site serves as the public face of Stalela, providing information about our compliance services, capturing leads, and building trust with potential clients. The site is optimized for performance and SEO, with static generation for all pages.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Internationalization**: next-intl
+- **Icons**: Lucide React
+- **Fonts**: Geist Sans & Geist Mono
+- **Deployment**: Vercel
+
+## Features
+
+- Multilingual support (EN, ZU, AF, XH)
+- Responsive design
+- Lead capture forms
+- Service showcase with rich content pages
+- SEO optimized with static generation
+- AI-generated images for services
+- Contact and registration pages
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/stalela/new-site.git
+cd new-site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Learn More
+### Build Commands
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm run lint` - Run ESLint
+- `npm run generate-images` - Generate AI images (requires DashScope API)
+- `npm run generate-images:only` - Generate specific images only
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/                 # Next.js app directory
+│   ├── [locale]/        # Internationalized routes
+│   ├── api/             # API routes (lead capture)
+│   └── globals.css      # Global styles
+├── components/          # Reusable components
+├── lib/                 # Utilities and data
+│   ├── services-data.ts # Service definitions
+│   └── utils.ts         # Helper functions
+└── messages/            # Translation files
+```
 
-## Deploy on Vercel
+## Internationalization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The site supports 4 languages:
+- English (`en`)
+- isiZulu (`zu`)
+- Afrikaans (`af`)
+- isiXhosa (`xh`)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Translations are stored in `src/messages/` as JSON files.
+
+## Deployment
+
+The site is configured for deployment on Vercel. The `vercel.json` file sets the build configuration.
+
+### Automatic Deployment
+
+Pushes to the `main` branch trigger automatic deployments on Vercel.
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Test locally
+4. Submit a pull request
+
+## License
+
+This project is proprietary to Stalela.
