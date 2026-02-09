@@ -54,6 +54,7 @@
     "copyright": "© {year} Stalela. All rights reserved."
   },
   "HeroSlider": {
+    "getInTouch": "Get in touch",
     "seeHowItWorks": "See how it works",
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",

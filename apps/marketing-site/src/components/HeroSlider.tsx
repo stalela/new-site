@@ -145,11 +145,11 @@ export function HeroSlider() {
 
         {/* CTAs */}
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
-          <Button href={meta.ctaHref} size="lg">
-            {slideCtaText}
+          <Button href="/contact" size="lg">
+            {t("getInTouch")}
           </Button>
-          <Button href="/how-it-works" variant="ghost" size="lg">
-            {t("seeHowItWorks")}
+          <Button href={meta.ctaHref} variant="ghost" size="lg">
+            {slideCtaText}
           </Button>
         </div>
 
