@@ -7,6 +7,9 @@ import { ServiceGrid } from "@/components/ServiceGrid";
 import { CTA } from "@/components/CTA";
 import { Button } from "@/components/Button";
 import { HomePageTrustIndicators } from "@/components/HomePageTrustIndicators";
+import { JsonLd } from "@/components/JsonLd";
+import { buildPageMetadata, SITE_URL } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -15,10 +18,12 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  return {
+  return buildPageMetadata({
     title: t("home.title"),
     description: t("home.description"),
-  };
+    path: "",
+    locale: locale as Locale,
+  });
 }
 
 const stepNumbers = ["1", "2", "3", "4"] as const;
@@ -28,8 +33,34 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("HomePage");
 
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Stalela",
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/logo-icon.svg`,
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "hello@stalela.co.za",
+      contactType: "customer service",
+      areaServed: "ZA",
+      availableLanguage: ["English", "isiZulu", "Afrikaans", "isiXhosa"],
+    },
+    sameAs: [],
+  };
+
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Stalela",
+    url: SITE_URL,
+  };
+
   return (
     <>
+      <JsonLd data={organizationJsonLd} />
+      <JsonLd data={websiteJsonLd} />
+
       {/* Hero Slider */}
       <HeroSlider />
 

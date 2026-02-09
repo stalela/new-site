@@ -15,7 +15,7 @@ export function CTA({ headline, description, ctaText, ctaHref }: CTAProps) {
       {/* Background image */}
       <Image
         src="/images/generated/cta-background.png"
-        alt=""
+        alt="Warm textured background"
         fill
         className="object-cover"
         sizes="100vw"

@@ -108,7 +108,7 @@ export function HeroSlider() {
         >
           <Image
             src={s.image}
-            alt=""
+            alt={`Stalela ${s.key} services`}
             fill
             className="object-cover"
             priority={i === 0}

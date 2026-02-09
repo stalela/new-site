@@ -21,6 +21,9 @@ import {
   getCategoryBySlug,
   getServiceBySlug,
 } from "@/lib/services-data";
+import { JsonLd } from "@/components/JsonLd";
+import { buildPageMetadata, SITE_URL } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 
 interface Props {
   params: Promise<{ locale: string; categorySlug: string; serviceSlug: string }>;
@@ -33,13 +36,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { serviceSlug } = await params;
+  const { locale, categorySlug, serviceSlug } = await params;
   const service = getServiceBySlug(serviceSlug);
   if (!service) return {};
-  return {
-    title: `${service.title} — Stalela`,
+  return buildPageMetadata({
+    title: service.title,
     description: service.description,
-  };
+    path: `/services/${categorySlug}/${serviceSlug}`,
+    locale: locale as Locale,
+  });
 }
 
 /** Custom rich pages for specific services */
@@ -65,11 +70,50 @@ export default async function ServicePage({ params }: Props) {
   const service = getServiceBySlug(serviceSlug);
   if (!category || !service) notFound();
 
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.description,
+    provider: {
+      "@type": "Organization",
+      name: "Stalela",
+      url: SITE_URL,
+    },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Services",
+        item: `${SITE_URL}/${locale}/services`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: category.name,
+        item: `${SITE_URL}/${locale}/services/${categorySlug}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: service.title,
+        item: `${SITE_URL}/${locale}/services/${categorySlug}/${serviceSlug}`,
+      },
+    ],
+  };
+
   const CustomPage = customPages[serviceSlug];
 
   if (CustomPage) {
     return (
       <>
+        <JsonLd data={serviceJsonLd} />
+        <JsonLd data={breadcrumbJsonLd} />
         <Section>
           <CustomPage />
         </Section>
@@ -81,6 +125,8 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <>
+      <JsonLd data={serviceJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
       <Section>
         <ServicePageContent serviceSlug={serviceSlug} />
       </Section>

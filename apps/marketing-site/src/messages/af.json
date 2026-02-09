@@ -307,5 +307,11 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Taal"
+  },
+  "NotFound": {
+    "heading": "Bladsy nie gevind nie",
+    "description": "Jammer, ons kon nie die bladsy vind waarna u soek nie. Dit is moontlik verskuif of bestaan nie.",
+    "homeLink": "Gaan huis toe",
+    "servicesLink": "Blaai deur dienste"
   }
 }

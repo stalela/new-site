@@ -307,5 +307,11 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Ulwimi"
+  },
+  "NotFound": {
+    "heading": "Iphepha alifumaneki",
+    "description": "Siyaxolisa, asikwazanga ukufumana iphepha olifunayo. Kusenokwenzeka lisusiwe okanye alikho.",
+    "homeLink": "Yiya ekhaya",
+    "servicesLink": "Jonga iinkonzo"
   }
 }

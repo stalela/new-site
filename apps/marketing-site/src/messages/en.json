@@ -307,5 +307,11 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Language"
+  },
+  "NotFound": {
+    "heading": "Page not found",
+    "description": "Sorry, we couldn't find the page you're looking for. It may have been moved or doesn't exist.",
+    "homeLink": "Go home",
+    "servicesLink": "Browse services"
   }
 }

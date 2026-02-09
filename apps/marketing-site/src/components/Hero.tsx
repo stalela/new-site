@@ -24,7 +24,7 @@ export function Hero({
       {/* Background image */}
       <Image
         src="/images/generated/hero-banner.png"
-        alt=""
+        alt="South African business professionals collaborating"
         fill
         className="object-cover opacity-40"
         priority

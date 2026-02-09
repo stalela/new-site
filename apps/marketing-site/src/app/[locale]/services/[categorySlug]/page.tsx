@@ -5,6 +5,8 @@ import { Section } from "@/components/Section";
 import { CTA } from "@/components/CTA";
 import { CategoryPageContent } from "@/components/CategoryPageContent";
 import { serviceCategories, getCategoryBySlug } from "@/lib/services-data";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 
 interface Props {
   params: Promise<{ locale: string; categorySlug: string }>;
@@ -15,13 +17,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { categorySlug } = await params;
+  const { locale, categorySlug } = await params;
   const category = getCategoryBySlug(categorySlug);
   if (!category) return {};
-  return {
-    title: `${category.name} — Stalela`,
+  return buildPageMetadata({
+    title: category.name,
     description: category.description,
-  };
+    path: `/services/${categorySlug}`,
+    locale: locale as Locale,
+  });
 }
 
 export default async function CategoryPage({ params }: Props) {

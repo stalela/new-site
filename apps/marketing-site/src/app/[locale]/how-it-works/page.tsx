@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/Section";
 import { CTA } from "@/components/CTA";
 import { FileText, UserCheck, Send, TrendingUp } from "lucide-react";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -12,10 +14,12 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  return {
+  return buildPageMetadata({
     title: t("howItWorks.title"),
     description: t("howItWorks.description"),
-  };
+    path: "/how-it-works",
+    locale: locale as Locale,
+  });
 }
 
 const stepIcons = [FileText, UserCheck, Send, TrendingUp];

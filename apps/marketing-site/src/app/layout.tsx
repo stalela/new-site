@@ -14,11 +14,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stalela — Run your business. We handle the admin.",
+  metadataBase: new URL("https://stalela.co.za"),
+  title: {
+    template: "%s — Stalela",
+    default: "Stalela — Run your business. We handle the admin.",
+  },
   description:
     "Company registration, compliance, and banking support for South African businesses.",
   icons: {
     icon: "/images/logo-icon.svg",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Stalela",
+    locale: "en_ZA",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 

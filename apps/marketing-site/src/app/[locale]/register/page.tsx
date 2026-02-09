@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { LeadForm } from "@/components/LeadForm";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -12,10 +14,12 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
-  return {
+  return buildPageMetadata({
     title: t("register.title"),
     description: t("register.description"),
-  };
+    path: "/register",
+    locale: locale as Locale,
+  });
 }
 
 export default async function RegisterPage({ params }: Props) {
