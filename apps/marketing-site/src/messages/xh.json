@@ -23,6 +23,10 @@
     "services": {
       "title": "Iinkonzo — Stalela",
       "description": "Ubhaliso lwenkampani, ukuthobela, irhafu, ibhanki, B-BBEE, iinkonzo zobuchwepheshe, nokunye okungakumbi kwama-SME aseMzantsi Afrika."
+    },
+    "blog": {
+      "title": "Ibhlog — Stalela",
+      "description": "Ulwazi, izikhokelo, neendaba malunga nobhaliso lweshishini nokuthobela eMzantsi Afrika."
     }
   },
   "Nav": {
@@ -30,6 +34,7 @@
     "howItWorks": "Isebenza Njani",
     "pricing": "Amaxabiso",
     "contact": "Qhagamshelana Nathi",
+    "blog": "Ibhlog",
     "getStarted": "Qala ngoku",
     "ourServices": "Iinkonzo Zethu",
     "mostPopular": "Ezidumileyo",
@@ -48,6 +53,7 @@
     "services": "Iinkonzo",
     "howItWorks": "Isebenza Njani",
     "pricing": "Amaxabiso",
+    "blog": "Ibhlog",
     "contact": "Qhagamshelana Nathi",
     "privacyPolicy": "Umgaqo-nkqubo Wabucala",
     "termsOfService": "Imimmiselo Yeenkonzo",
@@ -308,6 +314,13 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Ulwimi"
+  },
+  "Blog": {
+    "heading": "Ibhlog",
+    "description": "Ulwazi, izikhokelo, neendaba zamashishini aseMzantsi Afrika.",
+    "readMore": "Funda ngakumbi",
+    "noPosts": "Akukho zipapasho okwangoku. Buya kamva!",
+    "backToBlog": "Buyela kwibhlog"
   },
   "NotFound": {
     "heading": "Iphepha alifumaneki",

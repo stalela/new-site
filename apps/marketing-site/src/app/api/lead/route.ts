@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
+import { supabase } from "@/lib/supabase";
 
 export async function POST(request: NextRequest) {
   try {
@@ -21,33 +20,31 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const lead = {
-      id: crypto.randomUUID(),
-      ...body,
-      createdAt: new Date().toISOString(),
-    };
+    const { email, source, name, phone, ...rest } = body;
 
-    // Simple file-based storage for now
-    // Replace with a database in production
-    const dataDir = path.join(process.cwd(), ".data");
-    const filePath = path.join(dataDir, "leads.json");
+    const { data, error } = await supabase
+      .from("leads")
+      .insert({
+        email,
+        source,
+        name: name || null,
+        phone: phone || null,
+        data: Object.keys(rest).length > 0 ? rest : null,
+      })
+      .select("id")
+      .single();
 
-    await fs.mkdir(dataDir, { recursive: true });
-
-    let leads: unknown[] = [];
-    try {
-      const existing = await fs.readFile(filePath, "utf-8");
-      leads = JSON.parse(existing);
-    } catch {
-      // File doesn't exist yet
+    if (error) {
+      console.error("[lead] Supabase insert error:", error.message);
+      return NextResponse.json(
+        { error: "Failed to save lead." },
+        { status: 500 }
+      );
     }
 
-    leads.push(lead);
-    await fs.writeFile(filePath, JSON.stringify(leads, null, 2));
+    console.log(`[lead] New lead captured: source=${source} id=${data.id}`);
 
-    console.log(`[lead] New lead captured: source=${lead.source} id=${lead.id}`);
-
-    return NextResponse.json({ success: true, id: lead.id }, { status: 201 });
+    return NextResponse.json({ success: true, id: data.id }, { status: 201 });
   } catch {
     return NextResponse.json(
       { error: "Invalid request." },

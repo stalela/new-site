@@ -2,12 +2,13 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { serviceCategories } from "@/lib/services-data";
 import { SITE_URL } from "@/lib/seo";
+import { supabase } from "@/lib/supabase";
 
 /**
  * Dynamic sitemap covering every locale × every route.
  * Next.js serves this at /sitemap.xml automatically.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const locales = routing.locales;
 
   // Static pages
@@ -18,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/how-it-works",
     "/contact",
     "/register",
+    "/blog",
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticPaths.flatMap((path) =>
@@ -74,5 +76,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ),
   );
 
-  return [...staticEntries, ...categoryEntries, ...serviceEntries];
+  // Blog post pages
+  const { data: posts } = await supabase
+    .from("blog_posts")
+    .select("slug")
+    .eq("published", true);
+
+  const blogEntries: MetadataRoute.Sitemap = (posts || []).flatMap((post) =>
+    locales.map((locale) => ({
+      url: `${SITE_URL}/${locale}/blog/${post.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((loc) => [
+            loc,
+            `${SITE_URL}/${loc}/blog/${post.slug}`,
+          ]),
+        ),
+      },
+    })),
+  );
+
+  return [...staticEntries, ...categoryEntries, ...serviceEntries, ...blogEntries];
 }

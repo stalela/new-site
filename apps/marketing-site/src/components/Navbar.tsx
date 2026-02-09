@@ -23,6 +23,7 @@ import { serviceCategories } from "@/lib/services-data";
 const navLinkKeys = [
   { key: "howItWorks" as const, href: "/how-it-works" },
   { key: "pricing" as const, href: "/pricing" },
+  { key: "blog" as const, href: "/blog" },
   { key: "contact" as const, href: "/contact" },
 ];
 

@@ -23,6 +23,10 @@
     "services": {
       "title": "Izinsizakalo — Stalela",
       "description": "Ukubhalisa inkampani, ukuthobela, intela, amabhange, B-BBEE, izinsizakalo zobuchwepheshe, nokunye okwengeziwe kwama-SME aseNingizimu Afrika."
+    },
+    "blog": {
+      "title": "Ibhulogi — Stalela",
+      "description": "Ulwazi, imihlahlandlela, nezindaba mayelana nokubhalisa ibhizinisi nokuthobela umthetho eNingizimu Afrika."
     }
   },
   "Nav": {
@@ -30,6 +34,7 @@
     "howItWorks": "Kusebenza Kanjani",
     "pricing": "Amanani",
     "contact": "Xhumana Nathi",
+    "blog": "Ibhulogi",
     "getStarted": "Qala manje",
     "ourServices": "Izinsizakalo Zethu",
     "mostPopular": "Ezithandwa kakhulu",
@@ -48,6 +53,7 @@
     "services": "Izinsizakalo",
     "howItWorks": "Kusebenza Kanjani",
     "pricing": "Amanani",
+    "blog": "Ibhulogi",
     "contact": "Xhumana Nathi",
     "privacyPolicy": "Inqubomgomo Yobumfihlo",
     "termsOfService": "Imigomo Yezinsizakalo",
@@ -308,6 +314,13 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Ulimi"
+  },
+  "Blog": {
+    "heading": "Ibhulogi",
+    "description": "Ulwazi, imihlahlandlela, nezindaba zamabhizinisi aseNingizimu Afrika.",
+    "readMore": "Funda kabanzi",
+    "noPosts": "Akukho okuthunyelwe okwamanje. Buya maduzane!",
+    "backToBlog": "Buyela ebhulogi"
   },
   "NotFound": {
     "heading": "Ikhasi alitholakali",

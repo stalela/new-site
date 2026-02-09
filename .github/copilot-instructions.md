@@ -20,6 +20,7 @@ npm run generate-images:only   # generate specific images only
 - **Fonts**: Geist Sans + Geist Mono via `next/font/google`, exposed as CSS vars `--font-geist-sans`/`--font-geist-mono`
 - **Icons**: `lucide-react` exclusively — icon components stored in data objects and rendered dynamically (e.g., `<service.icon className="h-6 w-6" />`)
 - **Utility**: `cn()` helper in `src/lib/utils.ts` (clsx + tailwind-merge) for conditional class merging
+- **Internationalization**: next-intl with locales `en`, `zu`, `af`, `xh`; middleware handles locale routing
 
 ## Brand Colour Palette
 Custom `copper` palette defined as CSS custom properties in `globals.css` and registered with `@theme inline`:
@@ -47,16 +48,20 @@ All service/category data lives in `src/lib/services-data.ts`:
 ## Image Handling
 - All images via `next/image` with `fill` mode + `object-cover` inside aspect-ratio containers
 - Always provide responsive `sizes` attribute
-- AI-generated images stored in `public/images/generated/` — created via `scripts/generate-images.ts` (DashScope qwen-image-max)
+- AI-generated images stored in `public/images/generated/` — created via `scripts/generate-images.ts` (DashScope qwen-image-max with brand prefix in prompts)
 - Hero images use `priority` prop; others use default lazy loading
 
 ## API Route
 Single endpoint: `POST /api/lead` — validates `email` + `source`, writes to `.data/leads.json` (file-based, temporary). Returns `{ success: true, id }`. Do NOT add auth or complex backend logic.
+
+## Build & Deployment
+- Static generation with `generateStaticParams()` for dynamic routes and `generateMetadata()` for SEO
+- Deployed to Vercel; `vercel.json` sets build config
+- Security headers in `next.config.ts` for all routes
 
 ## Hard Constraints
 - Do NOT build authentication, dashboards, compliance engines, or banking integrations
 - Do NOT add APIs beyond simple lead capture
 - Do NOT invent marketing claims — use simple, factual copy
 - Keep all work inside `apps/marketing-site/`
-- Pages use `generateStaticParams()` + `generateMetadata()` for static generation and SEO
 - Tone: clear, practical, trustworthy — no hype or buzzwords

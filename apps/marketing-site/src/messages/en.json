@@ -23,6 +23,10 @@
     "services": {
       "title": "Services — Stalela",
       "description": "Stalela offers company registration, compliance, tax, banking, B-BBEE, tech services, and more for South African SMEs. Complete business administration support."
+    },
+    "blog": {
+      "title": "Blog — Stalela",
+      "description": "Insights, guides, and news about business registration, compliance, and growing your South African SME."
     }
   },
   "Nav": {
@@ -30,6 +34,7 @@
     "howItWorks": "How It Works",
     "pricing": "Pricing",
     "contact": "Contact",
+    "blog": "Blog",
     "getStarted": "Get started",
     "ourServices": "Our Services",
     "mostPopular": "Most popular",
@@ -48,6 +53,7 @@
     "services": "Services",
     "howItWorks": "How It Works",
     "pricing": "Pricing",
+    "blog": "Blog",
     "contact": "Contact",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
@@ -308,6 +314,13 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Language"
+  },
+  "Blog": {
+    "heading": "Blog",
+    "description": "Insights, guides, and news for South African businesses.",
+    "readMore": "Read more",
+    "noPosts": "No posts yet. Check back soon!",
+    "backToBlog": "Back to blog"
   },
   "NotFound": {
     "heading": "Page not found",

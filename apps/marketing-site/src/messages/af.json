@@ -23,6 +23,10 @@
     "services": {
       "title": "Dienste — Stalela",
       "description": "Maatskappy-registrasie, voldoening, belasting, bankwese, B-BBEE, tegnologiedienste, en meer vir Suid-Afrikaanse KMO's."
+    },
+    "blog": {
+      "title": "Blog — Stalela",
+      "description": "Insigte, gidse en nuus oor maatskappy-registrasie, voldoening en die groei van u Suid-Afrikaanse KMO."
     }
   },
   "Nav": {
@@ -30,6 +34,7 @@
     "howItWorks": "Hoe Dit Werk",
     "pricing": "Pryse",
     "contact": "Kontak",
+    "blog": "Blog",
     "getStarted": "Begin nou",
     "ourServices": "Ons Dienste",
     "mostPopular": "Gewildste",
@@ -48,6 +53,7 @@
     "services": "Dienste",
     "howItWorks": "Hoe Dit Werk",
     "pricing": "Pryse",
+    "blog": "Blog",
     "contact": "Kontak",
     "privacyPolicy": "Privaatheidsbeleid",
     "termsOfService": "Diensvoorwaardes",
@@ -308,6 +314,13 @@
     "af": "Afrikaans",
     "xh": "isiXhosa",
     "label": "Taal"
+  },
+  "Blog": {
+    "heading": "Blog",
+    "description": "Insigte, gidse en nuus vir Suid-Afrikaanse besighede.",
+    "readMore": "Lees meer",
+    "noPosts": "Nog geen plasings nie. Kyk later weer!",
+    "backToBlog": "Terug na blog"
   },
   "NotFound": {
     "heading": "Bladsy nie gevind nie",
