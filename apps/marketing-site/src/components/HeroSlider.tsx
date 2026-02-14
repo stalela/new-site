@@ -28,6 +28,13 @@ interface SlideMeta {
 
 const slideMeta: SlideMeta[] = [
   {
+    key: "techDigital",
+    slug: "tech-and-digital-services",
+    image: "/images/generated/category-digital-services.png",
+    icon: Globe,
+    ctaHref: "/services/tech-and-digital-services",
+  },
+  {
     key: "companyRegistration",
     slug: "company-registration-and-changes",
     image: "/images/generated/category-registration.png",
@@ -54,13 +61,6 @@ const slideMeta: SlideMeta[] = [
     image: "/images/generated/category-certifications.png",
     icon: BadgeCheck,
     ctaHref: "/services/certifications-and-memberships",
-  },
-  {
-    key: "techDigital",
-    slug: "tech-and-digital-services",
-    image: "/images/generated/category-digital-services.png",
-    icon: Globe,
-    ctaHref: "/services/tech-and-digital-services",
   },
 ];
 

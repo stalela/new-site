@@ -76,7 +76,7 @@ export default async function HomePage({ params }: Props) {
         </div>
         <div className="relative mx-auto mt-10 aspect-[16/7] max-w-4xl overflow-hidden rounded-2xl">
           <Image
-            src="/images/generated/services-overview.png"
+            src="/images/generated/category-digital-services.png"
             alt={t("servicesImageAlt")}
             fill
             className="object-cover"
@@ -84,7 +84,7 @@ export default async function HomePage({ params }: Props) {
           />
         </div>
         <div className="mt-12">
-          <ServiceGrid />
+          <ServiceGrid categorySlug="tech-and-digital-services" />
         </div>
         <div className="mt-8 text-center">
           <Button href="/services" variant="outline">
@@ -146,7 +146,7 @@ export default async function HomePage({ params }: Props) {
         headline={t("ctaHeadline")}
         description={t("ctaDescription")}
         ctaText={t("ctaText")}
-        ctaHref="/register"
+        ctaHref="/contact"
       />
     </>
   );

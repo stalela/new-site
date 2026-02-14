@@ -9,6 +9,7 @@ import { BrandingContent } from "@/components/studio/BrandingContent";
 import { LogoContent } from "@/components/studio/LogoContent";
 import { BusinessCardsContent } from "@/components/studio/BusinessCardsContent";
 import { GraphicDesignContent } from "@/components/studio/GraphicDesignContent";
+import { GraphicDesignCourseContent } from "@/components/studio/GraphicDesignCourseContent";
 import { SEOContent } from "@/components/studio/SEOContent";
 import { DigitalMarketingContent } from "@/components/studio/DigitalMarketingContent";
 import { CustomSoftwareContent } from "@/components/studio/CustomSoftwareContent";
@@ -54,6 +55,7 @@ const customPages: Record<string, React.ComponentType> = {
   "logo-design": LogoContent,
   "business-cards": BusinessCardsContent,
   "graphic-design": GraphicDesignContent,
+  "graphic-design-course": GraphicDesignCourseContent,
   "seo": SEOContent,
   "digital-marketing": DigitalMarketingContent,
   "custom-software": CustomSoftwareContent,

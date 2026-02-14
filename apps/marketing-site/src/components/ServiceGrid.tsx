@@ -1,15 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { allServices, type ServiceItem } from "@/lib/services-data";
+import { allServices, getCategoryBySlug, type ServiceItem } from "@/lib/services-data";
 import { ServiceModal } from "./ServiceModal";
 
 interface ServiceGridProps {
   services?: ServiceItem[];
+  categorySlug?: string;
 }
 
-export function ServiceGrid({ services }: ServiceGridProps) {
-  const items = services ?? allServices;
+export function ServiceGrid({ services, categorySlug }: ServiceGridProps) {
+  const categoryServices = categorySlug
+    ? getCategoryBySlug(categorySlug)?.services
+    : undefined;
+  const items = services ?? categoryServices ?? allServices;
   const [activeService, setActiveService] = useState<ServiceItem | null>(null);
 
   return (

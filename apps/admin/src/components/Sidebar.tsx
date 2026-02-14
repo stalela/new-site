@@ -13,6 +13,10 @@ import {
   LogOut,
   ChevronDown,
   Hexagon,
+  Building2,
+  MapPin,
+  Network,
+  List,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase-browser";
@@ -51,6 +55,16 @@ const navigation: (NavItem | NavGroup)[] = [
     ],
   },
   { label: "Metrics", href: "/metrics", icon: BarChart3 },
+  {
+    label: "Companies",
+    icon: Building2,
+    items: [
+      { label: "Overview", href: "/companies", icon: Building2 },
+      { label: "All Companies", href: "/companies/list", icon: List },
+      { label: "Map", href: "/companies/map", icon: MapPin },
+      { label: "Graph", href: "/companies/graph", icon: Network },
+    ],
+  },
 ];
 
 function isGroup(item: NavItem | NavGroup): item is NavGroup {

@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "home": {
-      "title": "Stalela — Run your business. We handle the admin.",
-      "description": "Stalela provides company registration, compliance, and banking support for South African businesses. From Pty Ltd registration to ongoing SARS compliance — we handle the admin so you can focus on your business."
+      "title": "Stalela — Enterprise technology solutions for African businesses.",
+      "description": "Stalela designs and delivers practical technology solutions for enterprises and growth-stage businesses in South Africa — AI systems, software platforms, automation, and digital experiences built for real operations."
     },
     "howItWorks": {
       "title": "How It Works — Stalela",
@@ -38,15 +38,15 @@
     "getStarted": "Get started",
     "ourServices": "Our Services",
     "mostPopular": "Most popular",
-    "featuredTitle": "Company Registration",
-    "featuredDescription": "Register a Pty Ltd, NPC, or CC with CIPC. We handle name reservation, MOI prep, and certificate delivery.",
+    "featuredTitle": "Tech & Digital Services",
+    "featuredDescription": "AI solutions, custom software, web and mobile products, and digital execution designed for enterprise use cases.",
     "learnMore": "Learn more",
     "viewAllServices": "View all services",
     "closeMenu": "Close menu",
     "openMenu": "Open menu"
   },
   "Footer": {
-    "tagline": "Company registration, compliance, and banking support for South African businesses.",
+    "tagline": "Enterprise-focused technology solutions for South African businesses — from strategy to delivery.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",
@@ -67,72 +67,72 @@
     "slides": {
       "companyRegistration": {
         "title": "Company Registration",
-        "headline": "Register your company\nwith zero hassle.",
-        "description": "Pty Ltd, NPC, CC — we handle CIPC name reservations, MOI prep, and certificate delivery. Start your business the right way.",
-        "ctaText": "Register your business"
+        "headline": "Launch and structure\nnew ventures correctly.",
+        "description": "When your solution includes entity setup, we handle registration support so leadership teams can focus on execution.",
+        "ctaText": "See registration support"
       },
       "taxCompliance": {
         "title": "Tax & Compliance",
-        "headline": "Stay compliant.\nAvoid penalties.",
-        "description": "SARS registrations, annual returns, UIF, Compensation Fund, and POPIA — we keep you on the right side of the law.",
-        "ctaText": "Get compliant"
+        "headline": "Compliance built into\nyour operating stack.",
+        "description": "We align systems and workflows with practical compliance requirements so your teams can scale with fewer surprises.",
+        "ctaText": "See compliance support"
       },
       "banking": {
         "title": "Banking & Finance",
-        "headline": "Open a business bank\naccount, painlessly.",
-        "description": "Document preparation and bank referrals so you can get your business account open without the back-and-forth.",
-        "ctaText": "Set up banking"
+        "headline": "Operational finance\nwithout friction.",
+        "description": "From documentation to onboarding support, we help businesses reduce delays across banking and finance setup flows.",
+        "ctaText": "Explore finance support"
       },
       "certifications": {
         "title": "Certifications",
-        "headline": "Get certified.\nWin more tenders.",
-        "description": "B-BBEE certificates, NSBC membership, and Proudly South African certification — the credentials your business needs.",
-        "ctaText": "Get certified"
+        "headline": "Strengthen your\nmarket credibility.",
+        "description": "We support key certification and membership pathways so your business can unlock larger commercial opportunities.",
+        "ctaText": "View certifications"
       },
       "techDigital": {
         "title": "Tech & Digital",
-        "headline": "Websites, apps,\nbranding & AI.",
-        "description": "Full-service digital studio — logo design, SEO, custom software, payment integrations, mobile apps, chatbots, and more.",
-        "ctaText": "Explore digital services"
+        "headline": "From strategy to\nAI-powered execution.",
+        "description": "Stalela sits at the intersection of business strategy and modern engineering — AI solutions, security-conscious software delivery, automation, web, mobile, and digital products built for real enterprise outcomes.",
+        "ctaText": "Explore tech services"
       }
     }
   },
   "HomePage": {
-    "servicesHeading": "Everything your business needs to stay on track with Stalela",
-    "servicesSubheading": "From registration to compliance, banking to branding — Stalela covers the full lifecycle of your South African business.",
-    "servicesImageAlt": "Overview of Stalela business services",
-    "viewAllServices": "View all Stalela services",
+    "servicesHeading": "Technology services built for enterprise realities",
+    "servicesSubheading": "We analyse business operations in a specific sector, identify repeatable high-impact opportunities, and deliver practical solutions that can be deployed across similar businesses with speed and consistency.",
+    "servicesImageAlt": "Stalela tech and digital service ecosystem",
+    "viewAllServices": "View all tech and business services",
     "howItWorksHeading": "How it works",
-    "howItWorksSubheading": "Four steps from idea to fully compliant business.",
-    "howItWorksImageAlt": "Four steps to register and manage your business",
+    "howItWorksSubheading": "Four steps from business analysis to deployed solution.",
+    "howItWorksImageAlt": "Four-step enterprise technology delivery process",
     "steps": {
       "1": {
-        "title": "Submit your details",
-        "description": "Tell us about your business, directors, and what you need."
+        "title": "Analyse a target business context",
+        "description": "We map workflows, pain points, systems, and constraints in a specific business environment."
       },
       "2": {
-        "title": "We register your company",
-        "description": "We handle the CIPC submission, document preparation, and follow-ups."
+        "title": "Design a practical solution architecture",
+        "description": "We define the fastest credible solution path — AI, software, automation, integration, or a hybrid model."
       },
       "3": {
-        "title": "We keep you compliant",
-        "description": "Automated reminders and filing support for annual returns, VAT, PAYE, and more."
+        "title": "Build, secure, and deploy",
+        "description": "Our team delivers production-ready implementation with clear delivery milestones and measurable outcomes."
       },
       "4": {
-        "title": "You focus on your business",
-        "description": "Run your business with confidence while we handle the admin."
+        "title": "Replicate where it creates value",
+        "description": "Once proven, the solution is adapted and rolled out to similar businesses for faster impact."
       }
     },
     "trustImageAlt": "Trust and security indicators",
     "trust": {
-      "cipc": "Registered with CIPC",
-      "audit": "Full audit trail",
-      "smes": "Trusted by SMEs",
-      "sa": "South African focused"
+      "cipc": "Enterprise-ready delivery",
+      "audit": "Security-conscious engineering",
+      "smes": "Proven across SA business contexts",
+      "sa": "African-first execution mindset"
     },
-    "ctaHeadline": "Ready to register your business?",
-    "ctaDescription": "Get started in minutes. We'll guide you through the entire process.",
-    "ctaText": "Register your business"
+    "ctaHeadline": "Ready to scope your next technology move?",
+    "ctaDescription": "Tell us your business context and we will propose a practical, credible solution path.",
+    "ctaText": "Talk to Stalela"
   },
   "HowItWorks": {
     "heading": "How Stalela Works",

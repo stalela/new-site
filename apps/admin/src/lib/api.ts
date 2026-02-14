@@ -10,6 +10,8 @@ import { createLeadsApi } from "@stalela/supabase/leads";
 import { createCustomersApi } from "@stalela/supabase/customers";
 import { createSeoApi } from "@stalela/supabase/seo";
 import { createMetricsApi } from "@stalela/supabase/metrics";
+import { createCompaniesApi } from "@stalela/supabase/companies";
+import { createResearchApi } from "@stalela/supabase/research";
 
 function lazy<T extends object>(factory: () => T): T {
   let instance: T | undefined;
@@ -34,3 +36,5 @@ export const leadsApi = lazy(() => createLeadsApi(getClient()));
 export const customersApi = lazy(() => createCustomersApi(getClient()));
 export const seoApi = lazy(() => createSeoApi(getClient()));
 export const metricsApi = lazy(() => createMetricsApi(getClient()));
+export const companiesApi = lazy(() => createCompaniesApi(getClient()));
+export const researchApi = lazy(() => createResearchApi(getClient()));

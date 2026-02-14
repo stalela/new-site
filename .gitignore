@@ -39,3 +39,8 @@ Thumbs.db
 
 # Generated types
 *.tsbuildinfo
+
+nul
+bash.exe.stackdump
+output/
+__pycache__/

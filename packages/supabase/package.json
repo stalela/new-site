@@ -12,6 +12,8 @@
     "./customers": "./src/customers.ts",
     "./seo": "./src/seo.ts",
     "./metrics": "./src/metrics.ts",
+    "./companies": "./src/companies.ts",
+    "./research": "./src/research.ts",
     "./types": "./src/types.ts"
   },
   "dependencies": {

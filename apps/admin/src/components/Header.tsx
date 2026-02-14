@@ -10,6 +10,10 @@ const titles: Record<string, string> = {
   "/contacts/leads": "Leads",
   "/contacts/customers": "Customers",
   "/metrics": "Metrics",
+  "/companies": "Companies",
+  "/companies/list": "All Companies",
+  "/companies/map": "Company Map",
+  "/companies/graph": "Graph Explorer",
 };
 
 export function Header() {

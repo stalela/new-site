@@ -22,6 +22,7 @@ import {
   Smartphone,
   Bot,
   MessageSquare,
+  BookOpen,
   Search,
   RectangleEllipsis,
   type LucideIcon,
@@ -269,6 +270,14 @@ export const allServices: ServiceItem[] = [
     longDescription: "Deploy an AI chatbot on your website or WhatsApp to handle customer queries 24/7. Qualify leads, answer FAQs, book appointments, and route complex issues to your team — automatically.",
     features: ["Website chat widget", "WhatsApp Business integration", "AI-powered responses", "Lead qualification flows", "Appointment booking", "Handoff to human agents", "Conversation analytics", "Multi-language support"],
   },
+  {
+    icon: BookOpen,
+    slug: "graphic-design-course",
+    title: "Graphic Design Course",
+    description: "Practical graphic design training for beginners and business teams.",
+    longDescription: "Learn the fundamentals of professional graphic design through a guided, hands-on course. We cover visual hierarchy, typography, colour, social media layouts, and real-world design workflows so you can create polished business assets confidently.",
+    features: ["Beginner-friendly modules", "Typography and colour fundamentals", "Canva and Adobe workflow basics", "Social media and marketing design projects", "Portfolio-ready assignments", "Certificate of completion"],
+  },
 ];
 
 /* ─── Helpers ─── */
@@ -338,6 +347,7 @@ export const serviceCategories: ServiceCategory[] = [
       "Logo Design",
       "Business Cards",
       "Graphic Design",
+      "Graphic Design Course",
       "SEO",
       "Digital Marketing",
       "Custom Software",
